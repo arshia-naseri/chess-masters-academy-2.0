@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .cell-attr {
+    @apply border-b-border text-primary rtl:text-border border-b px-2 py-1;
+  }
+
+  .last-row {
+    @apply border-none;
+  }
+
+  .hide-overflow-text {
+    @apply overflow-hidden text-ellipsis whitespace-nowrap;
+  }
+}
