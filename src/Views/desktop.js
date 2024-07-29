@@ -19,8 +19,8 @@ function Desktop({
     <>
       {/* Desktop */}
       <section className="flex h-screen w-screen items-center justify-center bg-slate-50 font-sans max-sm:hidden">
-        <main className="relative h-3/4 w-3/4 max-w-xl rounded-lg border border-black border-opacity-20 bg-[rgba(105,100,100,.7)] shadow-2xl shadow-[rgba(0,0,0,.7)]">
-          <section className="border-border flex size-full flex-col gap-9 rounded-lg border p-3">
+        <main className="relative h-3/4 max-h-fit w-3/4 max-w-xl rounded-lg border border-black border-opacity-20 bg-[rgba(105,100,100,.7)] shadow-2xl shadow-[rgba(0,0,0,.7)]">
+          <section className="border-border flex size-full max-h-fit flex-col gap-9 rounded-lg border p-3">
             {/* Nav Bar */}
             <nav>
               <ul className="flex items-center justify-end">
@@ -76,6 +76,7 @@ function Desktop({
                 <div className="hide-overflow-text">{email}</div>
                 {showTooltip !== "email" ? (
                   <IoCopy
+                    size="14px"
                     title="Copy"
                     className="hover:cursor-pointer hover:text-neutral-300"
                     onClick={(e) => copyText(e, email, "email")}
@@ -96,6 +97,7 @@ function Desktop({
                 </a>
                 {showTooltip !== "linkedin" ? (
                   <IoCopy
+                    size="14px"
                     title="Copy"
                     className="hover:cursor-pointer hover:text-neutral-300"
                     onClick={(e) => copyText(e, LinkedInURL, "linkedin")}
@@ -116,6 +118,7 @@ function Desktop({
                 </a>
                 {showTooltip !== "instagram" ? (
                   <IoCopy
+                    size="14px"
                     title="Copy"
                     className="hover:cursor-pointer hover:text-neutral-300"
                     onClick={(e) => copyText(e, InstagramURL, "instagram")}

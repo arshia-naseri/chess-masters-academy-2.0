@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  /* Desktop */
   .cell-attr {
-    @apply border-b-border text-primary rtl:text-border border-b px-2 py-1;
+    @apply border-b border-b-border px-2 py-1 text-primary rtl:text-border;
   }
 
   .last-row {
@@ -13,5 +14,13 @@
 
   .hide-overflow-text {
     @apply overflow-hidden text-ellipsis whitespace-nowrap;
+  }
+
+  .btnHeader {
+    @apply cursor-pointer bg-white bg-opacity-10 hover:bg-opacity-25;
+  }
+
+  .btnCtrls {
+    @apply flex aspect-square h-20 w-10 flex-col items-center justify-start bg-primary bg-opacity-10;
   }
 }

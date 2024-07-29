@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Desktop from "./Views/desktop";
+import Phone from "./Views/phone";
 import profilePic from "./Assets/profile-pic.jpg";
 import contactFile from "./Assets/Alireza-Pakmehr.vcf";
 
@@ -53,6 +54,11 @@ function App() {
         InstagramURL={InstagramURL}
         copyText={copyText}
         showTooltip={showTooltip}
+      />
+      <Phone
+        profilePic={profilePic}
+        contactFile={contactFile}
+        shareURL={shareURL}
       />
     </>
   );
