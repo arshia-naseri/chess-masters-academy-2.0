@@ -4,9 +4,18 @@ import {
   IoCopy,
   IoCheckmarkSharp,
   IoChatbubble,
+  IoCall,
+  IoLogoInstagram,
+  IoMail,
 } from "react-icons/io5";
 
+import { useRef } from "react";
+
 const Phone = ({ profilePic, contactFile, shareURL }) => {
+  const observer = new IntersectionObserver((entries) => {
+    console.log(entries);
+  });
+
   return (
     <>
       <section className="w-screen bg-black font-sans sm:hidden">
@@ -32,20 +41,29 @@ const Phone = ({ profilePic, contactFile, shareURL }) => {
           />
         </header>
         {/* Header2: details and ctrls */}
-        <header className="flex flex-col items-center bg-mobileHeader pt-6">
+        <header className="sticky top-0 flex flex-col items-center bg-mobileHeader pt-6">
           <section className="flex flex-col items-center justify-center text-5xl font-normal text-primary">
             <div className="text-lg font-thin">ALIREZA PAKMEHR</div>
             <div className="">Chess Masters</div>
             <div className="">Academy</div>
           </section>
-          <ul className="inline-flex w-full">
+          <ul className="relative mb-6 mt-10 inline-flex h-fit w-full justify-between gap-2 px-5">
             <li className="btnCtrls">
               <IoChatbubble className="text-primary" />
-              <div className="text-white">message</div>
+              <div>message</div>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li className="btnCtrls">
+              <IoCall className="text-primary" />
+              <div>call</div>
+            </li>
+            <li className="btnCtrls">
+              <IoLogoInstagram className="text-primary" />
+              <div>instagram</div>
+            </li>
+            <li className="btnCtrls">
+              <IoMail className="text-primary" />
+              <div>mail</div>
+            </li>
           </ul>
         </header>
         <div className="h-[100rem] bg-red-300 text-white">Hello</div>

@@ -21,6 +21,10 @@
   }
 
   .btnCtrls {
-    @apply flex aspect-square h-20 w-10 flex-col items-center justify-start bg-primary bg-opacity-10;
+    @apply relative flex h-16 w-full flex-col items-center justify-center gap-1 rounded-xl bg-primary bg-opacity-10 hover:cursor-pointer hover:bg-opacity-25;
+  }
+
+  .btnCtrls div {
+    @apply text-xs text-white;
   }
 }
