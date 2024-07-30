@@ -14,26 +14,27 @@ function Desktop({
   InstagramURL,
   copyText,
   showTooltip,
+  notePara,
 }) {
   return (
     <>
       {/* Desktop */}
       <section className="flex h-screen w-screen items-center justify-center bg-slate-50 font-sans max-sm:hidden">
         <main className="relative h-3/4 max-h-fit w-3/4 max-w-xl rounded-lg border border-black border-opacity-20 bg-[rgba(105,100,100,.7)] shadow-2xl shadow-[rgba(0,0,0,.7)]">
-          <section className="border-border flex size-full max-h-fit flex-col gap-9 rounded-lg border p-3">
+          <section className="flex size-full max-h-fit flex-col gap-9 rounded-lg border border-border p-3">
             {/* Nav Bar */}
             <nav>
               <ul className="flex items-center justify-end">
                 <li className="mr-auto">
                   <IoCloseCircle
                     title="Close"
-                    className="text-primary size-[25px] cursor-pointer hover:text-neutral-200"
+                    className="size-[25px] cursor-pointer text-primary hover:text-neutral-200"
                   />
                 </li>
                 <li className="mr-3">
                   <IoShareOutline
                     title="Share"
-                    className="text-primary size-[25px] cursor-pointer hover:text-neutral-200"
+                    className="size-[25px] cursor-pointer text-primary hover:text-neutral-200"
                     onClick={shareURL}
                   />
                 </li>
@@ -42,7 +43,7 @@ function Desktop({
                     href={contactFile}
                     download="Chess Masters Academy-Alireza Pakmehr"
                   >
-                    <button className="text-primary border-border text-md rounded-md border px-1.5 hover:bg-neutral-400">
+                    <button className="text-md rounded-md border border-border px-1.5 text-primary hover:bg-neutral-400">
                       Add to Contacts
                     </button>
                   </a>
@@ -56,7 +57,7 @@ function Desktop({
                 className="size-20 rounded-full"
                 alt="Contact Pic"
               />
-              <section className="text-primary flex flex-col">
+              <section className="flex flex-col text-primary">
                 <div className="text-xl font-medium">Alireza Pakmehr</div>
                 <div className="text-base font-light">
                   Chess Masters Academy
@@ -131,18 +132,7 @@ function Desktop({
                 note
               </div>
               <div className="cell-attr last-row">
-                <p>
-                  Are you looking to improve your chess skills? I can help! I'm
-                  a chess instructor with a FIDE rating, which means I've been
-                  recognized internationally for my chess expertise. In North
-                  America, especially in the United States, most players have
-                  CFC (Chess Federation of Canada) ratings. But FIDE ratings are
-                  known worldwide for their reliability and prestige. When you
-                  choose me as your chess instructor, you're getting top-notch
-                  guidance based on my FIDE rating, ensuring you receive
-                  high-quality lessons. Join me on a chess journey that's
-                  respected all around the world.
-                </p>
+                <p>{notePara}</p>
               </div>
             </section>
           </section>

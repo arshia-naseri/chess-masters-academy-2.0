@@ -9,6 +9,10 @@ function App() {
   const LinkedInURL = "http://linkedin.com/in/alireza-pak-mehr-411982288";
   const InstagramURL = "https://www.instagram.com/chessmastersacademy/";
   const email = "rhchessmastersacademy@gmail.com";
+  const phoneNumber = "4372202743";
+  const notePara =
+    "Are you looking to improve your chess skills? I can help! I'm a chess instructor with a FIDE rating, which means I've been recognized internationally for my chess expertise. In North America, especially in the United States, most players have CFC (Chess Federation of Canada) ratings. But FIDE ratings are known worldwide for their reliability and prestige. When you choose me as your chess instructor, you're getting top-notch guidance based on my FIDE rating, ensuring you receive high-quality lessons. Join me on a chess journey that's respected all around the world.";
+
   const shareURL = async (e) => {
     try {
       await navigator.share({
@@ -34,6 +38,18 @@ function App() {
     }
   };
 
+  const changePhoneNumberFormat = (strPhone) => {
+    let digits = strPhone.replace(/\D/g, "");
+    return (
+      "(" +
+      digits.substring(0, 3) +
+      ") " +
+      digits.substring(3, 6) +
+      "-" +
+      digits.substring(6)
+    );
+  };
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowTooltip("");
@@ -54,11 +70,18 @@ function App() {
         InstagramURL={InstagramURL}
         copyText={copyText}
         showTooltip={showTooltip}
+        notePara={notePara}
       />
       <Phone
         profilePic={profilePic}
         contactFile={contactFile}
+        phoneNumber={phoneNumber}
+        formatedPhoneNumber={changePhoneNumberFormat(phoneNumber)}
         shareURL={shareURL}
+        email={email}
+        LinkedInURL={LinkedInURL}
+        InstagramURL={InstagramURL}
+        notePara={notePara}
       />
     </>
   );

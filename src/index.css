@@ -27,4 +27,24 @@
   .btnCtrls div {
     @apply text-xs text-white;
   }
+
+  .modifyDetailNav [data-name] {
+    @apply hidden;
+  }
+
+  .modifyDetailNav [data-detailsection] {
+    @apply flex-row gap-1 text-xl;
+  }
+
+  .modifyDetailNav ul {
+    @apply !mt-5;
+  }
+
+  .mobileTiles {
+    @apply bg-mobileTile rounded-lg bg-opacity-20 p-3 hover:bg-opacity-30;
+  }
+
+  .mobileTiles div:nth-child(2) {
+    @apply text-mobileLinks overflow-hidden text-ellipsis whitespace-nowrap text-base;
+  }
 }
