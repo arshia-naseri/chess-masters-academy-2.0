@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Chess Masters Academy - Contact Information Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project involves the creation of a digital contact card for Alireza Pakmehr, a chess instructor associated with the Chess Masters Academy. The contact card is designed to be viewed on both desktop and mobile devices, ensuring accessibility and ease of use for potential clients.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The main objective of this project was to design a contact information card that showcases Alireza Pakmehr's credentials, contact information, and social media links in a visually appealing and user-friendly manner. The card includes essential details such as mobile number, work email, LinkedIn, Instagram, and a brief note highlighting Alireza's expertise and the benefits of choosing him as a chess instructor.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: The contact card is optimized for both desktop and mobile views, ensuring a seamless user experience across different devices.
+- **Comprehensive Contact Information**: Includes mobile number, email address, LinkedIn profile, and Instagram handle.
+- **Professional Note**: A brief note that emphasizes Alireza Pakmehr's FIDE rating and his expertise in chess tutoring.
+- **Easy Access Links**: Direct links to contact via phone, email, LinkedIn, and Instagram.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Desktop View
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Desktop View](public/Desktop-ChessMastersAcademy.jpeg)
 
-### `npm run build`
+### Mobile View
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Mobile View](public/phone-ChessMastersAcademy.jpeg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To use this contact information card:
 
-### `npm run eject`
+1. Open the webpage [www.arshia-naseri.github.io/chess-masters-academy-2.0/](https://arshia-naseri.github.io/chess-masters-academy-2.0/) (desktop or mobile).
+2. Click on the respective links to contact Alireza via phone, email, LinkedIn, or Instagram.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For any queries or further information, please contact Alireza Pakmehr at:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Mobile**: (437) 220-2743
+- **Email**: rhchessmastersacademy@gmail.com
+- **LinkedIn**: [Alireza Pakmehr](http://linkedin.com/in/alireza-pak-mehr-411982288)
+- **Instagram**: [Chess Masters Academy](https://www.instagram.com/chessmastersacademy/)
