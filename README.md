@@ -30,11 +30,11 @@ To use this contact information card:
 1. Open the webpage [www.arshia-naseri.github.io/chess-masters-academy-2.0/](https://arshia-naseri.github.io/chess-masters-academy-2.0/) (desktop or mobile).
 2. Click on the respective links to contact Alireza via phone, email, LinkedIn, or Instagram.
 
-## Contact
+<!-- ## Contact
 
 For any queries or further information, please contact Alireza Pakmehr at:
 
 - **Mobile**: (437) 220-2743
 - **Email**: rhchessmastersacademy@gmail.com
 - **LinkedIn**: [Alireza Pakmehr](http://linkedin.com/in/alireza-pak-mehr-411982288)
-- **Instagram**: [Chess Masters Academy](https://www.instagram.com/chessmastersacademy/)
+- **Instagram**: [Chess Masters Academy](https://www.instagram.com/chessmastersacademy/) -->
