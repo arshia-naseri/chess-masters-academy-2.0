@@ -38,16 +38,33 @@ const Phone = ({
     document.body.removeChild(tempLink);
   };
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) =>
-      setIsProfilePicVisible(entry.isIntersecting),
-    );
-    observer.observe(profilePicRef.current);
-    return () => {
-      observer.disconnect();
-    };
-  }, [profilePicRef]);
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(([entry]) =>
+  //     setIsProfilePicVisible(entry.isIntersecting),
+  //   );
+  //   observer.observe(profilePicRef.current);
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, [profilePicRef]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      // console.log("Scrolled!", window.scrollY);
+      if (profilePicRef.current.getBoundingClientRect().bottom <= 0) {
+        setIsProfilePicVisible(false);
+      } else if (profilePicRef.current.getBoundingClientRect().bottom >= 0) {
+        setIsProfilePicVisible(true);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <section
