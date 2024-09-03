@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.540e1125.css",
-    "main.js": "/static/js/main.a17fd7ac.js",
+    "main.js": "/static/js/main.974cd516.js",
     "static/media/Alireza-Pakmehr.vcf": "/static/media/Alireza-Pakmehr.8ae8a68d64a5adcad8f7.vcf",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.3c0ac235e21fd7baa7a7.jpg",
     "index.html": "/index.html",
     "main.540e1125.css.map": "/static/css/main.540e1125.css.map",
-    "main.a17fd7ac.js.map": "/static/js/main.a17fd7ac.js.map"
+    "main.974cd516.js.map": "/static/js/main.974cd516.js.map"
   },
   "entrypoints": [
     "static/css/main.540e1125.css",
-    "static/js/main.a17fd7ac.js"
+    "static/js/main.974cd516.js"
   ]
 }
