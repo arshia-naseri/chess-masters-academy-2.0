@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.540e1125.css",
-    "main.js": "/static/js/main.974cd516.js",
-    "static/media/Alireza-Pakmehr.vcf": "/static/media/Alireza-Pakmehr.8ae8a68d64a5adcad8f7.vcf",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.3c0ac235e21fd7baa7a7.jpg",
-    "index.html": "/index.html",
-    "main.540e1125.css.map": "/static/css/main.540e1125.css.map",
-    "main.974cd516.js.map": "/static/js/main.974cd516.js.map"
+    "main.css": "/chess-masters-academy-2.0/static/css/main.540e1125.css",
+    "main.js": "/chess-masters-academy-2.0/static/js/main.c7fc1ff2.js",
+    "static/media/Alireza-Pakmehr.vcf": "/chess-masters-academy-2.0/static/media/Alireza-Pakmehr.8ae8a68d64a5adcad8f7.vcf",
+    "static/media/profile-pic.jpg": "/chess-masters-academy-2.0/static/media/profile-pic.3c0ac235e21fd7baa7a7.jpg",
+    "index.html": "/chess-masters-academy-2.0/index.html",
+    "main.540e1125.css.map": "/chess-masters-academy-2.0/static/css/main.540e1125.css.map",
+    "main.c7fc1ff2.js.map": "/chess-masters-academy-2.0/static/js/main.c7fc1ff2.js.map"
   },
   "entrypoints": [
     "static/css/main.540e1125.css",
-    "static/js/main.974cd516.js"
+    "static/js/main.c7fc1ff2.js"
   ]
 }
