@@ -1,6 +1,7 @@
 {
   "name": "chess-masters-academy-2.0",
-  "homepage": "www.thechessmastersacademy.com",
+  "_homepage": "www.thechessmastersacademy.com",
+  "homepage": "https://arshia-naseri.github.io/chess-masters-academy-2.0/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
